@@ -1,0 +1,17 @@
+body{  
+    background-color:lightgrey;
+}  
+nav {
+    background-color:#ff9933;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;  
+}
+.txt{
+    background-color: white;
+    float:right;
+    padding: 5px 9px;
+    position: absolute;
+    right:6%;
+   
+}

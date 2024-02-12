@@ -1,0 +1,98 @@
+body{
+    background-color:lightgrey;  
+    background-image: url("img/bg.jpg");  
+}
+.registration{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    left: 150px;
+    top: 40px;
+}
+.from{
+    height:600px;
+    width:70% ;
+    position: absolute;
+    top: 20%;
+    background-color:#000000;
+    color: white;
+    display: block;
+    margin-left: 140px;
+    margin-right: auto;   
+    border-radius:30px;
+    border: 5px solid #ff9933;
+  /* animation-name: run;
+    animation-duration: 6s;
+    animation-iteration-count: 4;*/
+
+}
+.user-name{
+    background-color: white;
+    position: absolute;
+    height:30px;
+    width:300px;
+    top: 240px;
+    left: 180px;
+    padding-left: 23px;
+    font-size: 20px;
+    border-radius:20px;
+    border: 2px solid #ff9933;
+}
+
+.email{
+    background-color: white;
+    position: absolute;
+    height:30px;
+    width:300px;
+    top: 180px;
+    left: 180px;
+    padding-left: 23px;
+    font-size: 20px;
+    border-radius:20px;
+    border: 2px solid #ff9933;
+}
+.password{
+    background-color: white;
+    position: absolute;
+    height:30px;
+    width:300px;
+    top: 300px;
+    left: 180px;
+    padding-left: 23px;
+    font-size: 20px;
+    border-radius:20px;
+    border: 2px solid #ff9933;
+}
+.rpassword{
+    background-color: white;
+    position: absolute;
+    height:30px;
+    width:300px;
+    top: 360px;
+    left: 180px;
+    padding-left: 23px;
+    font-size: 20px;
+    border-radius:20px;
+    border: 2px solid #ff9933;
+}
+.submit{
+    background-color:#ff9933;
+    color: black;
+    width: 150px;
+    border-radius:20px;
+    border: 2px solid lightgrey;
+    font-size: 22px;
+    position: absolute;
+    top: 440px;
+    left: 260px;
+}
+@keyframes run {
+  
+     0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+
+}
+
